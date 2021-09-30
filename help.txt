@@ -1,0 +1,17 @@
+Gen Syntax:
+	[param_1 [param_2 [...]] "path_of_dir"
+
+Usage Example:
+	C:\> cd program_path
+	C:\program_path> py -3.9 [param_1 [param_2 [...]] "Organise by file type.py" "path_of_dir"
+
+Additional params:
+	-b x y z [add extensions x, y, and z to blacklist]*
+	-ob [override all blacklisted extensions]*
+	-o [open first directory when done]*
+	-p [show progress] --> Feature not implemented
+	-bc [clear blacklist]*
+	-br [read blacklist]*
+	-h [show this help]
+
+Note: Blacklist statements should be separate and not have any other parameter.
